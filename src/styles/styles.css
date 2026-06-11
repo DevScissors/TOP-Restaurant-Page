@@ -1,0 +1,46 @@
+body {
+    background: url("../images/nerfee-mirandilla-o1EDsUFmuXQ-unsplash.jpg");
+    height: 96vh;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+#content {
+    font-size: 46px;
+    color: white;
+    -webkit-text-stroke: 6px black;
+    paint-order: stroke fill;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-btn {
+    font-size: xx-large;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    color: white;
+    -webkit-text-stroke: 6px black;
+    paint-order: stroke fill;
+}
+
+.footer {
+    place-self: center;
+    margin-top: auto;
+}
+

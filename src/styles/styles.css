@@ -1,6 +1,8 @@
 body {
     background: url("../images/nerfee-mirandilla-o1EDsUFmuXQ-unsplash.jpg");
     height: 96vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-wrapper {
@@ -27,7 +29,7 @@ body {
     gap: 20px;
 }
 
-.menu-btn {
+.nav-btn {
     font-size: xx-large;
     background-color: transparent;
     border-top: none;

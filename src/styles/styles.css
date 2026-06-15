@@ -106,6 +106,20 @@ body {
     width: 30vw;
     font-size: 16px;
     text-align: left;
+    justify-items: center;
+}
+
+.contact-page-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.contact-info-wrapper {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
 }
 
 .contact-title {

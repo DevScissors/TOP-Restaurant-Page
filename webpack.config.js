@@ -3,6 +3,7 @@ import HtmlWebpackPlugin from "html-webpack-plugin";
 
 export default {
   mode: "development",
+  devtool: "eval-cheap-module-source-map",
   entry: "./src/index.js",
   output: {
     filename: "main.js",

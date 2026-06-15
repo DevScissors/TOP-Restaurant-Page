@@ -17,7 +17,7 @@ export default function homePage() {
   homeMissionDiv.textContent =
     "It has been said that we have the best italian food in the states. Our chefs originate from Italy to bring you the most authentic italian food you can find on this side of the water.";
   homeHoursTitle.textContent = "Hours:";
-  homeHoursDiv.textContent = "Mon-Sat: 8:00am - 9:00pm and  Closed on Sunday";
+  homeHoursDiv.textContent = "Mon-Sat: 8:00am - 9:00pm and Closed on Sunday";
 
   homeHoursWrapperDiv.append(homeHoursTitle, homeHoursDiv);
   contentDiv.append(homeTitleDiv, homeMissionDiv, homeHoursWrapperDiv);

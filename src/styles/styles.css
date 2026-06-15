@@ -54,15 +54,53 @@ body {
 }
 
 /* Home Page styling */
-.home-page-content-title,
-.home-page-mission,
-.home-page-hours-wrapper {
-    color: black;
+.home-page-content-title {
+    text-decoration: underline;
+}
+
+.home-page-mission {
+    font-size: 24px;
 }
 
 .home-page-hours-title {
+    font-size: 24px;
     margin: 0;
 }
+
+.home-page-hours {
+    font-size: 20px;
+}
+
+/* Menu Page styling */
+.menu-page-wrapper {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    gap: 10px;
+}
+
+.menu-page-item {
+    font-size: 16px;
+}
+
+/* About Page styline */
+.about-page-wrapper {
+    font-size: 16px;
+}
+
+.about-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-page-title {
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.join-paragraph {
+    margin-bottom: 5vh;
+}
+
 
 .footer {
     place-self: center;

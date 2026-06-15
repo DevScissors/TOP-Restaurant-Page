@@ -101,6 +101,34 @@ body {
     margin-bottom: 5vh;
 }
 
+/* Contact Page styling */
+.contact-page-wrapper {
+    width: 30vw;
+    font-size: 16px;
+    text-align: left;
+}
+
+.contact-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.contact-page-title {
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.phone-number,
+.address-street,
+.address-city,
+.address-zip,
+.email-address
+ {
+    margin: 0;
+}
+
 
 .footer {
     place-self: center;
